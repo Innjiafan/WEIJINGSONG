@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--<div id="main_id" class="carousel slide" data-ride="carousel">-->
+        <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+        <!--<ol class="carousel-indicators">-->
+            <!--<li data-target="#main_id" data-slide-to="0" class="active"></li>-->
+            <!--<li data-target="#main_id" data-slide-to="1"></li>-->
+            <!--<li data-target="#main_id" data-slide-to="2"></li>-->
+            <!--<li data-target="#main_id" data-slide-to="3"></li>-->
+        <!--</ol>-->
+
+        <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+        <!--<div class="carousel-inner" role="listbox">-->
+            <!--<div class="item active"  data-image-lg="img/slide_01_2000x410.jpg"-->
+            <!--data-image-xs="img/slide_01_640x340.jpg"-->
+            <!--&gt;-->
+                <!--&lt;!&ndash;<img src="img/slide_01_2000x410.jpg" alt="...">&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="item" data-image-lg="img/slide_02_2000x410.jpg"-->
+                 <!--data-image-xs="img/slide_02_640x340.jpg">-->
+                <!--&lt;!&ndash;<img src="img/slide_02_2000x410.jpg" alt="...">&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="item" data-image-lg="img/slide_03_2000x410.jpg"-->
+                 <!--data-image-xs="img/slide_03_640x340.jpg">-->
+                <!--&lt;!&ndash;<img src="img/slide_03_2000x410.jpg" alt="...">&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="item" data-image-lg="img/slide_04_2000x410.jpg"-->
+                 <!--data-image-xs="img/slide_04_640x340.jpg">-->
+                <!--&lt;!&ndash;<img src="img/slide_04_2000x410.jpg" alt="...">&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Controls &ndash;&gt;-->
+        <!--<a class="left carousel-control" href="#main_id" role="button" data-slide="prev">-->
+            <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+            <!--<span class="sr-only">上一页</span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control" href="#main_id" role="button" data-slide="next">-->
+            <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+            <!--<span class="sr-only">下一页</span>-->
+        <!--</a>-->
+    <!--</div>-->
+<!--<script src="lib/jquery/jquery.js"></script>-->
+<!--<script src="lib/bootstrap/js/bootstrap.js"></script>-->
+<!--<script src="js/main.js"></script>-->
+    Please input your name:<input type="text" id="input"/>
+    <input type=button value="test3" onclick="testMethod4()" /><br>
+    <span></span>
+    <script>
+        function testMethod4() {
+            var input = document.getElementById("input");
+            var span = document.getElementsByTagName("span")[0];
+            console.log(input.value);
+            span.innerHTML = "x2rr";
+        }
+
+    </script>
+</body>
+</html>
